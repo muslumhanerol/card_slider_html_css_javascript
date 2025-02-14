@@ -16,10 +16,39 @@ body {
     background-color: whitesmoke;
 }
 
+.slide-content {
+    margin: 0 40px;
+}
+
 /* Profil fotosu arka plan */
 .card {
+    width: 320px;
     border-radius: 25px;
     background-color: #fff;
+}
+
+.img-content,
+.card-content {
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profil fotosu arkapla üstten boşluğu uzatma. */
+.img-content {
+    position: relative;
+    row-gap: 5px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
 }
 
 .card-image {
@@ -37,4 +66,33 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid #4070F4;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.description {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    background-color: blue;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: rgb(106, 106, 192);
 }
