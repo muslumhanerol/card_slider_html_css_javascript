@@ -142,7 +142,30 @@ body {
 
 }
 
-.button {
+.card-content .buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.buttons .button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: #0d1c43;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.buttons .button:hover {
+    background-color: blue;
+}
+
+/* .button {
     border: none;
     font-size: 16px;
     color: white;
@@ -156,9 +179,9 @@ body {
 
 .button:hover {
     background: blue;
-}
+} */
 
-.swiper-navBtn {
+*/ .swiper-navBtn {
     color: #6E93f7;
     transition: color 0.3s ease;
 }
