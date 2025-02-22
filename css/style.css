@@ -86,6 +86,10 @@ body {
     padding: 3px;
 }
 
+.card-image:hover {
+    background-color: forestgreen;
+}
+
 .card-image .card-img {
     height: 100%;
     width: 100%;
