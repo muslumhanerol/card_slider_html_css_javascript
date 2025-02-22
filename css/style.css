@@ -104,6 +104,37 @@ body {
     color: black;
 }
 
+.job {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 10px
+}
+
+/* media icon start */
+.card-content .media-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.media-buttons .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 34px;
+    width: 34px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin: 0 8px;
+    background-color: #0d1c43;
+    text-decoration: none;
+}
+
+/* media icon end */
+
 .description {
     font-size: 14px;
     color: gray;
