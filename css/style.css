@@ -111,7 +111,7 @@ body {
     margin-top: 10px
 }
 
-/* media icon start */
+/* Media Icon Start */
 .card-content .media-buttons {
     display: flex;
     align-items: center;
@@ -133,7 +133,9 @@ body {
     text-decoration: none;
 }
 
-/* media icon end */
+/* Media Icon End */
+
+/* ############################################################################ */
 
 .description {
     font-size: 14px;
@@ -148,6 +150,8 @@ body {
     margin-top: 25px;
 }
 
+/* ############################################################################ */
+/* Button Css Start */
 .buttons .button {
     color: #fff;
     font-size: 14px;
@@ -180,6 +184,38 @@ body {
 .button:hover {
     background: blue;
 } */
+
+/* Button Css End */
+
+/* ############################################################################ */
+
+/* Statistics Css Start */
+.statistics {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.statistics .data {
+    display: flex;
+    align-items: center;
+    color: #333;
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7;
+}
+
+.data:first-child {
+    border-left: 2px solid #e7e7e7;
+}
+
+/* .data:last-child {
+    border-right: none;
+} */
+
+/* Statistics Css End */
+
+/* ############################################################################33333 */
+
 
 */ .swiper-navBtn {
     color: #6E93f7;
