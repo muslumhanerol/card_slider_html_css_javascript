@@ -189,6 +189,72 @@ body {
 
 /* ############################################################################ */
 
+/* Languages Css Start */
+.languages-icons1,
+.languages-icons2 {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.languages-icons1 .icon,
+.languages-icons2 .icon {
+    display: flex;
+    align-items: center;
+    color: #333;
+    padding: 0 20px;
+    border-right: 2px solid #e7e7e7;
+}
+
+.icon i {
+    font-size: 30px;
+    margin-right: 6px;
+}
+
+.icon:last-child {
+    border-right: none;
+}
+
+.languages-icons1 .icon:nth-child(1):hover {
+    background-color: red;
+}
+
+.languages-icons1 .icon:nth-child(2):hover {
+    background-color: deepskyblue;
+}
+
+.languages-icons1 .icon:nth-child(3):hover {
+    background-color: yellow;
+}
+
+.languages-icons1 .icon:nth-child(4):hover {
+    background-color: rgb(95, 193, 225);
+}
+
+
+.languages-icons2 .icon:nth-child(1):hover {
+    background-color: rgb(78, 108, 162);
+}
+
+.languages-icons2 .icon:nth-child(2):hover {
+    background-color: #4070F4;
+}
+
+.languages-icons2 .icon:nth-child(3):hover {
+    background-color: darkturquoise;
+}
+
+.languages-icons2 .icon:nth-child(4):hover {
+    background-color: rgb(4, 180, 239);
+}
+
+
+
+
+/* Languages Css End */
+
+/* ############################################################################ */
+
 /* Statistics Css Start */
 .statistics {
     display: flex;
@@ -202,6 +268,11 @@ body {
     color: #333;
     padding: 0 20px;
     border-right: 2px solid #e7e7e7;
+}
+
+.data i {
+    font-size: 20px;
+    margin-right: 6px;
 }
 
 .data:first-child {
